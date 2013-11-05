@@ -1,4 +1,4 @@
-## vim-mode for Zsh
+## vim-mode for Oh My Zsh
 
 I made this plugin to replace the inadequate vi-mode plugin which is included in oh my zsh.
 
