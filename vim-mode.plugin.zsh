@@ -34,7 +34,7 @@ zle -N noop
 bindkey -M vicmd '\E' noop
 
 # Changes cursor shape depending on mode
-if [ "$ITERM_CURSOR" != "false" ]; then
+if [ "$ITERM_CURSOR" = "true" ]; then
 
     BLOCK='\E]50;CursorShape=0\x7' # Block Cursor
     LINE='\E]50;CursorShape=1\x7' # Line Cursor
